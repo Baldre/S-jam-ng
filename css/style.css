@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    text-size: 25px;
+}
+
+ol, ul {
+    padding: 0.2rem;
+    margin: 0;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ol li {
+    display: block;
+    position: relative;
+    padding: 3px;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 3px;
+}
+
+li:nth-of-type(2n) {
+    background: #edeff2;
+}
+
+textarea {
+    resize: none;
+    height: 98%;
+    width: 100%;
+}
+
+.nopadding {
+    padding: 0;
+    margin: 0;
+}
+
+.verticalscroll {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.minheader {
+    min-height: 60px;
+}
+
+.sixtyheight {
+    height: 60%;
+}
+
+.fourtyheight {
+    height: 40%;
+}
+
+.eightyfiveheight {
+    height: 85%;
+}
+
+.twentyfiveheight {
+    height: 25%;
+}
+
+.fifteenheight {
+    height: 15%;
+}
+
+.header {
+    height: 7.5%;
+}
+
+.header div {
+    color: white;
+    background: #19464D;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.header div i {
+    padding-left: 1rem; padding-right: 1rem;
+}
+
+.headerbottom {
+    height: 91.5%
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #19464D;
+    border-color: #19464D;
+}
+
+.btn-primary:hover {
+    background-color: #338d9c;
+    border-color: #338d9c;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active {
+    background-color: #24a2a1;
+    border-color: #24a2a1;
+}
+
+.remove {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 0 0 0 0;
+    transform: translate(0%, -50%);
+    border-radius: 2px;
+}
+
+.adminAction {
+    background: rgb(98, 218, 168);
+}
+
+.checkbox span {
+    padding-left: 0.5rem;
+}
